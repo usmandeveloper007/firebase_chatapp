@@ -1,16 +1,30 @@
-# firebase_chat_app
+# 🗨️ Firebase Chat App (Flutter + GetX)
 
-A new Flutter project.
+A simple real-time chat application built using **Flutter**, **Firebase Firestore**, **Firebase Authentication**, and **GetX** for state management. Users can send and receive messages in real-time with a clean UI and smooth scrolling experience.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 🔐 Firebase Email Authentication
+- 💬 Real-time messaging using Firestore
+- ⬇️ Auto scroll to the latest message
+- 📦 Clean architecture with `GetX` controller separation
+- 🚪 Logout functionality with session handling
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** 🐦
+- **Firebase Authentication** 🔐
+- **Cloud Firestore** 🔥
+- **GetX** 💼 (State Management)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Folder Structure
+
+lib/</br>
+├── controllers/ </br>
+│ └── auth_controller.dart</br>
+│ └── chat_controller.dart</br>
+├── view/</br>
+│ └── chat_screen.dart</br>
+├── widgets/</br>
+│ └── message_bubble.dart</br>
+├── main.dart</br>
